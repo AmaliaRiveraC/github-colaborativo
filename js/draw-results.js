@@ -14,10 +14,10 @@ select.addEventListener("change", filter);
 //   console.log("nps", nps);
 // }
 
-function paintData(activeStudents, percentageDesertion) {
+/*function paintData(activeStudents, percentageDesertion) {
     var containerEnrolledStudents = document.getElementById('students-enrolled');
     var containerDesertion = document.getElementById('students-dropout');
     containerEnrolledStudents.innerText = activeStudents;
     containerDesertion.innerHTML = percentageDesertion;
-    console.log('Hola');
 }
+*/
