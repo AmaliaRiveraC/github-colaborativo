@@ -1,0 +1,247 @@
+SPYDJ Nearpod
+5400 Slido
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Data Dashboard</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header>
+      <div class="center">
+        <img src='http://dummyimage.com/150x100' alt=''/>
+      </div>
+    </header>
+    <nav class="bold menu">
+      <select name='' id='select'>
+        <optgroup label="AQP" class="asd">
+          <option data-sede="AQP" data-generation="2016-2">AQP 2016-2</option>
+          <option data-sede="AQP" data-generation="2017-1">AQP 2017-1</option>
+        </optgroup>
+        <optgroup label="CDMX">
+          <option data-sede="CDMX" data-generation="2017-2">CDMX 2017-2</option>
+          <option data-sede="CDMX" data-generation="2017-1">CDMX 2017-1</option>
+        </optgroup>
+      </select>
+      <ul id="tab-container">
+        <li class="menu-nav" data-selection="overview">OVERVIEW</li>
+        <li class="menu-nav" data-selection="students">STUDENTS</li>
+        <li class="menu-nav" data-selection="teachers">TEACHERS</li>
+      </ul>
+    </nav>
+    <main>
+      <div id="overview" class="tab">
+        <section class="container">
+          <div class="graphic-card-small">
+            <h4 class="title-card">ENROLLMENT</h4>
+            <div class="skills">
+              <div class="skills-medium inline-block center">
+                <h4 id="students-enrolled">120</h4>
+                <p># students currently enrolled</p>
+              </div>
+              <div class="skills-medium inline-block center">
+                <h4 class="text-danger"><span id="students-dropout">20</span>%</h4>
+                <p>% dropout</p>
+              </div>
+            </div>
+            <div class="graph center">
+            </div>
+          </div>
+          <div class="graphic-card-small">
+            <h4 class="title-card">ACHIEVEMENT</h4>
+            <div class="skills">
+              <div class="skills-medium inline-block center">
+                <h4 id="students-targeted">105</h4>
+                <p># students that meet the target</p>
+              </div>
+              <div class="skills-medium inline-block center">
+                <h4><span id="achievement-percent">78</span>%</h4>
+                <p>% of total (<span id="active-students">135</span>)</p>
+              </div>
+            </div>
+            <div class="graph center">
+            </div>
+          </div>
+          <div class="graphic-card-small">
+            <h4 class="title-card">NET PROMOTER SCORE</h4>
+            <div class="skills">
+              <div class="skills-medium inline-block center">
+                <h4><span id="cumulative-nps">78</span>%</h4>
+                <p>% cumulative nps</p>
+              </div>
+              <div class="skills-medium inline-block center">
+                <p class="nps"><span id="cumulative-promoters">60</span> % Promoters</p>
+                <p class="nps"><span id="cumulative-passive">30</span> % Passive</p>
+                <p class="nps"><span id="cumulative-detractors">10</span> % Detractors</p>
+              </div>
+            </div>
+            <div class="graph center">
+            </div>
+          </div>
+        </section>
+        <section class="container">
+          <div class="graphic-card-large menu">
+            <ul>
+              <li>
+                <h4 class="title-card">TECH SKILLS</h4>
+              </li>
+              <li class="dropdown">
+                <span>&#9660;</span>
+                <ul class="hide item-list">
+                  <li class="line"><span class="checkbox"></span> COMMON CORE</li>
+                  <li><span class="checkbox"></span> Sprint 1: Create an interactive site</li>
+                  <li><span class="checkbox"></span> Sprint 2: Create an interactive site</li>
+                  <li><span class="checkbox"></span> Sprint 3: Create an interactive site</li>
+                  <li><span class="checkbox"></span> Sprint 4: Create an interactive site</li>
+
+                  <li class="col-10 line"><span class="checkbox"></span> Javascript</li>
+                  <li class="col-10"><span class="checkbox"></span> Sprint 5: Create an interactive site</li>
+                  <li class="col-10"><span class="checkbox"></span> Sprint 6: Create an interactive site</li>
+                  <li class="col-10"><span class="checkbox"></span> Sprint 7: Create an interactive site</li>
+                  <li class="col-10"><span class="checkbox"></span> Sprint 8: Create an interactive site</li>
+
+                  <li class="col-10 line"><span class="checkbox"></span> UX Design</li>
+                  <li class="col-10"><span class="checkbox"></span> Sprint 5: Create an interactive site</li>
+                  <li class="col-10"><span class="checkbox"></span> Sprint 6: Create an interactive site</li>
+                  <li class="col-10"><span class="checkbox"></span> Sprint 7: Create an interactive site</li>
+                  <li class="col-10"><span class="checkbox"></span> Sprint 8: Create an interactive site</li>
+                </ul>
+              </li>
+            </ul>
+            <div>
+              <div class="skills-large center inline-block">
+                <h4>90</h4>
+                <p># students that meet the target</p>
+              </div>
+              <div class="skills-large center inline-block">
+                <h4>62%</h4>
+                <p>% of total (135)</p>
+              </div>
+            </div>
+            <div class="inline-block">
+            </div>
+            <div class="center inline-block">
+              <p class="title-card"><span class="green-mark"></span> # students that meet the target</p>
+              <p class="title-card"><span class="red-mark"></span> # students that don't meet the target</p>
+            </div>
+          </div>
+        </section>
+        <section class="container">
+          <div class="graphic-card-large menu">
+            <ul>
+              <li>
+                <h4 class="title-card">LIFE SKILLS</h4>
+              </li>
+              <li  class="dropdown">
+                <span>&#9660;</span>
+                <ul class="hide item-list">
+                  <li class="line"><span class="checkbox"></span> HSE</li>
+                  <li><span class="checkbox"></span> Sprint 1: Create an interactive site</li>
+                  <li><span class="checkbox"></span> Sprint 2: Create an interactive site</li>
+                  <li><span class="checkbox"></span> Sprint 3: Create an interactive site</li>
+                  <li><span class="checkbox"></span> Sprint 4: Create an interactive site</li>
+                </ul>
+              </li>
+            </ul>
+            <div class="">
+              <div class="skills-large center inline-block">
+                <h4>80</h4>
+                <p># overall class average</p>
+              </div>
+              <div class="skills-large center inline-block">
+                <h4>62</h4>
+                <p># of students that meet the target</p>
+              </div>
+            </div>
+            <div class="inline-block">
+            </div>
+            <div class="center inline-block">
+              <p class="title-card"><span class="green-mark"></span> # students that meet the target</p>
+              <p class="title-card"><span class="red-mark"></span> # students that don't meet the target</p>
+            </div>
+          </div>
+        </section>
+        <section class="container">
+          <div class="graphic-card-small">
+            <h4 class="title-card">STUDENT SATISFACTION</h4>
+            <div class="skills">
+              <div class="skills-medium center inline-block">
+                <h4><span id="satisfaction-percent">70</span>%</h4>
+                <p>% meeting or exceeding expectations (cumulative)</p>
+              </div>
+            </div>
+            <div class="graph center">
+            </div>
+          </div>
+          <div class="graphic-card-small">
+            <h4 class="title-card">TEACHER RATING</h4>
+            <div class="skills">
+              <div class="skills-medium inline-block center">
+                <h4 id="teacher-rating">4.2</h4>
+                <p>overall teacher rating (cumulative)</p>
+              </div>
+            </div>
+            <div class="graph center">
+            </div>
+          </div>
+          <div class="graphic-card-small">
+            <h4 class="title-card">JEDI MASTER RATING</h4>
+            <div class="skills">
+              <div class="skills-medium center inline-block">
+                <h4 id="jedi-rating">5.0</h4>
+                <p>overall jedi rating (cumulative)</p>
+              </div>
+            </div>
+            <div class="graph center">
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="students" class="tab">
+        <aside class="width-33">
+          <h3>SPECIALIZATION:</h3>
+          <ul class="specialization">
+            <li><span class="checkbox"></span> Javascript</li>
+            <li><span class="checkbox"></span> UX Design</li>
+            <li><span class="checkbox"></span> Front end Designer</li>
+          </ul>
+        </aside>
+        <div class="search">
+          <input type="search" placeholder="Buscar">
+        </div>
+        <section id="container-students" class="container-cards">
+
+        </section>
+      </div>
+      <div id="teachers" class="tab">
+        <aside class="width-33">
+          <h3>SPECIALIZATION:</h3>
+          <ul class="specialization">
+            <li><span class="checkbox"></span> Javascript</li>
+            <li><span class="checkbox"></span> UX Design</li>
+            <li><span class="checkbox"></span> Front end Designer</li>
+          </ul>
+        </aside>
+        <div class="search">
+          <input type="search" placeholder="Buscar">
+        </div>
+        <section class="container">
+          <div class="graphic-card-large menu">
+            <h4 class="title-card">TEACHERS</h4>
+            <div class="skills-large center inline-block">
+              <h4>Vista no disponible por el momento</h4>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="js/tabs.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/board-math.js"></script>
+    <script src="js/draw-results.js"></script>
+
+  </body>
+</html>
