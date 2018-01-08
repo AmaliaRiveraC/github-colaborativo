@@ -58,6 +58,7 @@ function filter() {
   var generation = selectedOption.dataset.generation;
 
   var studentsCount = getStudentsCount(office, generation);
+  
   var activeStudents = getActiveStudents(office, generation);
   var inactiveStudents = getInactiveStudents(office, generation);
   var dropoutPercents = Math.round(inactiveStudents / studentsCount * 100);
@@ -67,6 +68,7 @@ function filter() {
   document.getElementById("students-dropout").innerText = dropoutPercents;
 
   paintData(activeStudents, percentageDesertion);
+  
 }
 
 function getStudentsCount(office, generation) {

@@ -19,5 +19,4 @@ function paintData(activeStudents, percentageDesertion) {
     var containerDesertion = document.getElementById('students-dropout');
     containerEnrolledStudents.innerText = activeStudents;
     containerDesertion.innerHTML = percentageDesertion;
-    console.log('Hola');
 }
