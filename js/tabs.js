@@ -1,7 +1,7 @@
 
 var liTab = document.querySelectorAll(".menu-nav");
 for (var i = 0; i < liTab.length; i++) {
-  liTab[i].addEventListener("click", changeTab);
+liTab[i].addEventListener("click", changeTab);
 }
 
 function changeTab() {
